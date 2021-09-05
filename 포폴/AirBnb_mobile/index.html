@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile</title>
+
+  <link href="imgs/logo3.png" rel="shortcut icon" type="image/x-icon" > 
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+  
+  <script src="js/jquery-2.2.4.min.js"></script>  
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/custom.js"></script>
+  
+</head>
+<body>
+
+  <header>
+    <div class="menu_top">
+      <button class="menu_bar">
+        <i class="fi-rr-bell"><span class="blind">알림</span></i>        
+      </button>
+
+      <h1 class="logo">
+        <a href="#">
+          <span class="blind">airbnb</span>
+        </a>
+      </h1>
+
+      <button class="search">
+        <i class="fi-rr-search"><span class="blind">검색</span></i>
+      </button>   
+    </div>
+
+    <div class="search_bg">
+      <div class="search_wrap">
+        <div class="search_box">
+          <form action="">
+            <fieldset>
+              <legend class="blind">검색</legend>
+              <input type="text" placeholder="Where are you going?" size="25">
+              <i class="fi-rr-search"></i>
+            </fieldset>
+          </form>
+        </div>
+        <button type="button" class="search_close_btn"><i class="fi-rr-cross "><span class="blind"></span></i></button> 
+    </div>
+    
+     <div class="search_result_bg">      
+        <h2 class ="search_title">Resent Searches</h2>
+        <div class="swiper resent_search-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="imgs/search1.webp" alt="Entired house in hongdae">
+                <span>Entired house in hongdae</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="imgs/search2.webp" alt="Entired loft in hongdae">
+                <span>Entired loft in hongdae</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="imgs/search3.webp" alt="private room in Gwangjin">
+                <span>private room in Gwangjin</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="imgs/search4.webp" alt="Entire condominium">
+                <span>Entire condominium</span>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="#">
+                <img src="imgs/search5.webp" alt="studio in hongdae">
+                <span>studio in hongdae</span>
+              </a>
+            </div>
+            
+          </div>
+          <div class="swiper-pagination"></div>            
+        </div>         
+      </div>
+      
+    </div>
+    
+  </header>
+
+  <main>
+    
+    <section class="main-slide">
+      <h2 class="blind">이벤트</h2>
+      <div class="swiper main-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">         
+            <a href="">
+            <img src="imgs/liveanywehre1.webp" alt="mainslide1"  data-swiper-parallax-x="15%">
+            <h3>Live Anywhere <br><span> You Want</span></h3>
+            </a>
+          </div>  
+          <div class="swiper-slide">
+            <a href="">
+            <img src="imgs/slide-img2.webp" alt="mainslide2" data-swiper-parallax-x="15%">
+            <h3>Holiday <br><span>with AirBnb</span></h3>
+            </a>
+          </div>  
+          <div class="swiper-slide">
+            <a href="">
+            <img src="imgs/slide3.webp" alt="mainslide3" data-swiper-parallax-x="15%">
+            <h3>Discover New experiences<br><span>With Airbnb</span></h3>
+          </a>
+          </div>  
+        </div>          
+        <div class="swiper-pagination"></div>            
+      </div>
+    </section>
+
+    <section class="live_anywhere">
+      <h2 class = "title">Live Anywhere</h2>
+      <div class="swiper live-swiper">
+        <div class="swiper-wrapper">
+         
+        </div>
+      </div>
+    </section>
+
+    <section class="wishlists">
+      <h2 class = "title">People's Wishlists</h2>
+      <div class="swiper wishlists-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="imgs/wishlist1.webp" alt="wishlist_picture1">
+              <div class="txt_wrap">
+                <em>Treehouse De Valentine</em>
+              </div>
+            </a>
+            <a href="" class="heart"><i class="fi-rr-heart"></i></a> 
+            </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="imgs/wishlist2.jpg" alt="wishlist_picture1">
+              <div class="txt_wrap">
+                <em>Yonder Yurt</em>
+              </div>
+            </a>
+            <a href="" class="heart"><i class="fi-rr-heart"></i></a> 
+            </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="imgs/wishlist3.webp" alt="wishlist_picture1">
+              <div class="txt_wrap">
+                <em>Comforts Cocoon</em>
+              </div>
+            </a>
+            <a href="" class="heart"><i class="fi-rr-heart"></i></a> 
+            </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="imgs/wishlist4.webp" alt="wishlist_picture1">
+              <div class="txt_wrap">
+                <em>House Zatanki</em>
+              </div>
+            </a>
+            <a href="" class="heart"><i class="fi-rr-heart"></i></a> 
+            </div>
+          <div class="swiper-slide">
+            <a href="#">
+              <img src="imgs/wishlist5.webp" alt="wishlist_picture1">
+              <div class="txt_wrap">
+                <em>Ellie's house</em>
+              </div>
+            </a>
+            <a href="" class="heart"><i class="fi-rr-heart"></i></a> 
+            </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="discover clear">
+      <h2 class="title">Discover things to do</h2>
+      
+      <ul>
+        <li>
+          <a href="#">
+            <img src="imgs/discover-culture1.webp" alt="discover-culture">
+            <div class="txt_wrap">
+              <strong>New Culture</strong> 
+              <em>세계 여러나라의 다양한 문화를 현지인들과 함께 경험해보세요</em>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="imgs/discover-newchallege1.webp" alt="discover-newchallege">
+            <div class="txt_wrap">
+              <strong>New Challenge</strong>
+              <em>새로운 것을 도전해보세요</em>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="imgs/discover-online.webp" alt="discover-online">
+            <div class="txt_wrap">
+              <strong>Online Class</strong>
+              <em>원하는 취미를 집에서 해보세요</em>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="next_trip">
+      <div class=" next_trip_bg">
+        <img class="logo" src="imgs/logo-w.png" alt="/Airbnb_Logo">
+        <p class="sub_title">You don't know where to<br/> go for next trip? </p>
+        <ul>
+          <li>
+            <a href="">
+            <img src="imgs/where-seoul.jpg" alt="where-seoul">
+            <div class="txt_wrap">
+              <i class="fi-rr-marker"></i><span>Seoul,Korea</span>
+            </div>
+          </a>
+          </li>
+          <li>
+            <a href="">
+            <img src="imgs/where-hongkong.jpg" alt="where-hongkong">
+            <div class="txt_wrap">
+              <i class="fi-rr-marker"></i><span>HongKong</span>
+            </div>
+            </a>
+          </li>
+          <li>
+            <a href="">
+            <img src="imgs/where-bali.jpg" alt="where-bali">
+            <div class="txt_wrap">
+              <i class="fi-rr-marker"></i><span>Bali,Indonesia</span>
+            </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <a herf="" class="btn">Check more detail on AirBnb <i class="fi-rr-angle-small-right"></i></a>
+    </section>
+
+    <section class="theme">
+      <h2 class = "title">Theme</h2>
+      <div class="swiper theme-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#">
+            <img src="imgs/theme1.webp" alt="theme_강">
+            <span>강</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+            <img src="imgs/theme2.webp" alt="theme_힐링여행">
+            <span>힐링여행</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+            <img src="imgs/theme3.webp" alt="theme_낭만 캠프">
+            <span>낭만 캠프</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+            <img src="imgs/theme4.webp" alt="theme_평화로운 산골여행">
+            <span>평화로운 산골여행</span>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="#">
+            <img src="imgs/theme5.webp" alt="theme_자연 속 여행">
+            <span>자연 속 여행</span>
+            </a>
+          </div>                
+        </div>
+      </div>
+    </section>
+
+    <section class="hosting">
+      <h2 class = "title">Trying Hosting</h2>
+      <div class="swiper hosting-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="imgs/host1.webp" alt="host1">
+            <div class="txt_wrap">
+              <strong>Host your experience</strong>
+              <em>당신의 경험을 공유해보세요</em>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="imgs/host2.jpg" alt="host2">
+            <div class="txt_wrap">
+              <strong>Host your place</strong>
+              <em>휴식공간을 공유해보세요</em>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+          </div>
+          <div class="swiper-slide">            
+            <img src="imgs/host3.jpg" alt="host3">
+            <div class="txt_wrap">
+              <strong>Trying Hosting</strong>
+              <em>숙소를 공유하여 부수입을 가져보세요</em>
+              <a class="btn" href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="best_ranking">
+      <h2 class ="title">Popular destinations</h2>
+      <ul>
+        <li>
+          <a href="">
+            <em>1.</em>
+            <strong>Los Angeles,California </strong>
+            <img src="imgs/best_raking_los.jpg" alt="best_raking_los">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <em>2.</em>
+            <strong>Paris,France</strong>
+            <img src="imgs/best_raking_paris.jpg" alt="best_raking_paris">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <em>3.</em>
+            <strong>Florence,Italy</strong>
+            <img src="imgs/best_raking_Florence.jpg" alt="best_raking_Florence">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <em>4.</em>
+            <strong>Valencia,Spain</strong>
+            <img src="imgs/best_raking_Valencia.jpg" alt="best_raking_Valencia">
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <em>5.</em>
+            <strong>Amsterdam,Netherlands</strong>
+            <img src="imgs/best_raking_Amsterdam.jpg" alt="best_raking_Amsterdam">
+          </a>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+  
+      <ul class="fixed_menu">
+        <li><i class="fi-rs-heart"></i><em>Wishlist</em></li>
+        <li><i class="fi-rr-envelope"></i><em>Inbox</em></li>
+        <li><div class="logo"></div><em>AirBnb</em></li>
+        <li><i class="fi-rr-notebook"></i><em>Booking</em></li>
+        <li class="fixed_menu_profile"><i class="fi-rs-user"></i><em>Profile</em></li>
+      </ul>
+
+      <div class="menu_profile">
+        <div class="menu_title">
+          <span>My Profile</span>
+          <button type="button" class="close_btn"><i class="fi-rr-cross"></i></button>        
+        </div>
+        <div class="profile clear">
+          <div class="user_profile">
+            <img src="imgs/icon-profileimg.png" alt="">
+          </div>
+          <div class="txt_wrap">
+            <strong>김수은</strong>
+            <span>Chuncheon,Korea </span>
+          </div>
+          <a href="#" class="profile_btn">View Profile</a>
+          <ul class="quick_btn">
+            <li> <div><i class="fi-rr-bell"></i></div><em>Notification</em></li>
+            <li> <div><i class="fi-rr-briefcase"></i></div><em>History</em></li>
+            <li> <div><i class="fi-rs-heart"></i></div><em>Wishlist</em></li>
+          </ul>
+        </div>
+        
+        <ul class="menu_profile_list">
+          <li><a href=""><i class="fi-rr-user"></i> Personal infromation</a></li>
+          <li><a href=""><i class="fi-rr-credit-card"></i> Payments and payouts</a></li>
+          <li><a href=""><i class="fi-rr-home"></i> List Your space</a></li>
+          <li><a href=""><i class="fi-rr-users"></i> Host an experience</a></li>
+          <li><a href=""><i class="fi-rr-interrogation"></i></i> Get help</a></li>
+          <li><a href=""><i class="fi-rr-layers"></i> Give us feedback</a></li>
+          <li><a href=""><i class="fi-rr-search-alt"></i>Terms of Service</a></li>
+        </ul>
+
+      </div>    
+        
+      
+  </footer>
+  
+</body>
+</html> 

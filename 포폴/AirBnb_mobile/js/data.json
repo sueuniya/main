@@ -1,0 +1,62 @@
+
+[
+
+
+{
+  "cate": "wish",
+  "title": "Outdoor getaways",
+  "desc": "자연과 함께 할 수 있는 곳",
+  "src": "imgs/anywhere-nature.webp"
+},
+{
+  "cate": "wish",
+  "title": "Unique Stays",
+  "desc": "경험해보지 못한 색다른 공간",
+  "src": "imgs/anywhere-unique.webp"
+},
+{
+"cate": "wish",
+"title": "Pets Allowed",
+"desc": "나의 애완견과 함께하는 곳",
+"src": "imgs/liveanywhere-pet.webp"
+},
+{
+"cate": "wish",
+"title": "Entired homes",
+"desc": "전체 집을 빌리는 수 있는 숙소",
+"src": "imgs/anywhere-house.jpg"
+},
+
+{
+"cate": "theme",
+"title": "강",
+"desc": "강 이미지",
+"src": "imgs/theme1.webp"
+},
+{
+"cate": "theme",
+"title": "힐링여행",
+"desc": "힐링여행 이미지",
+"src": "imgs/theme2.webp"
+},
+{
+"cate": "theme",
+"title": "낭만 캠프",
+"desc": "낭만 캠프 이미지",
+"src": "imgs/theme3.webp"
+},
+{
+"cate": "theme",
+"title": "평화로운 산골여행",
+"desc": "평화로운 산골여행  이미지",
+"src": "imgs/theme4.webp"
+},
+{
+"cate": "theme",
+"title": "자연 속 여행",
+"desc": "자연 속 여행 이미지",
+"src": "imgs/theme5.webp"
+}
+
+
+]
